@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shakshuka</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 42px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 32px;
+      }
+      h3 {
+        text-align: center;
+        font-size: 24px;
+      }
+      h4 {
+        text-align: center;
+        font-size: 22px;
+      }
+      h6 {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+      }
+      p {
+        font-size: 20px;
+      }
+      ul {
+        list-style: circle;
+        position: relative;
+        font-size: 20px;
+      }
+      body {
+        background: linear-gradient(to right, red, orange);
+      }
+      .darkbody {
+        color: white;
+        background: black;
+      }
+      .container {
+        display: inline-block;
+        margin: 10px;
+        background-color: lightsalmon;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .darkcontainer {
+        display: inline-block;
+        margin: 10px;
+        background-color: gray;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .readyButton {
+        color: white;
+        background-color: red;
+        display: block;
+        padding: 10px 20px;
+        margin: 0 auto;
+        font-size: 16px;
+        border-radius: 25px;
+        border: 1px solid red;
+        line-height: 22px;
+        padding: 16px 24px;
+        text-decoration: none;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+      }
+      .readyButton:hover {
+        background-color: hotpink;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .themeButton {
+        padding: 10px;
+        margin: 0 auto;
+        color: black;
+        background-color: lightslategray;
+        border-radius: 50px;
+        border: 1px solid black;
+      }
+      .themeButton:hover {
+        background-color: lightskyblue;
+        border: 1px solid navy;
+      }
+      .darkThemeButton {
+        padding: 10px;
+        margin: 0 auto;
+        color: black;
+        background-color: lightskyblue;
+        border-radius: 90px;
+        border: 1px solid navy;
+      }
+      .darkThemeButton:hover {
+        background-color: lightslategray;
+        border: 1px solid black;
+      }
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      img:hover {
+        transform: scale(2);
+      }
+      .image-gallery {
+        padding: 30px 20px 30px 20px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: repeat(3);
+        grid-gap: 20px;
+      }
+      .picture1 {
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+      }
+      .picture1:hover {
+        opacity: 0.7;
+        filter: saturate(120%);
+        transform: scale(1);
+      }
+      .giphy {
+        margin: 0 auto;
+        display: flex;
+        padding-top: 20px;
+      }
+      :link {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="themeButton">🌞</button>
+    <br />
+    <div class="container">
+      <h1>Shakshuka</h1>
+      <h2>The ultimate lazy yet amazing dish</h2>
+      <img
+        class="picture1"
+        src="https://images.unsplash.com/photo-1498602753442-dfa7a49fc9c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2hha3NodWthfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60>"
+      />
+      <h3>
+        Shakshuka is a simple dish made of gently poached eggs in a delicious
+        chunky tomato and bell pepper sauce. Said to have originated in Tunisia,
+        this breakfast recipe is popular in many parts of North Africa and the
+        Middle East. It is so satisfying, you can serve it for breakfast, lunch,
+        or dinner.
+      </h3>
+      <p>Ingredients:</p>
+      <ul>
+        <p>
+          <li>olive oil</li>
+          <li>a can of tomatoes</li>
+          <li>4 eggs</li>
+          <li>one red bell pepper cut into small pieces</li>
+          <li>spices: pepper, paprika, cumin, coriander</li>
+        </p>
+      </ul>
+      <iframe
+        src="https://giphy.com/embed/xUA7aXEIO0krT5KHLO"
+        width="480"
+        height="360"
+        frameborder="0"
+        allowfullscreen
+        class="giphy"
+      ></iframe>
+      <h4 class="preparation">Get your pan ready!</h4>
+      <br />
+      <div class="recipe">
+        <p>
+          Start by warming some oil on the pan and then adding the red bell
+          pepper. Let it fry a bit and then pour the tomatoes from the can, mix
+          and add spices (save corriander as a garnish). When the sauce is
+          ready, use the back of a spoon and make some holes in the sauce. Crack
+          your eggs into the holes you created. Cover the pan and allow the eggs
+          to simmer in the sauce over medium-low heat until the eggs are done to
+          your liking. Once done, garnish with herbs and toppings of your choice
+          (e.g sunflowers seeds, feta crumbles).
+        </p>
+      </div>
+      <br />
+      <h4>
+        Serve with fresh bread for breakfast, lunch or quick dinner.
+        <br />
+        <br />
+        Bon appetit!
+      </h4>
+      <a
+        href="https://www.youtube.com/watch?v=m5Kn9WmOCrw&ab_channel=PreppyKitchen"
+        target="_blank"
+      >
+        <button class="readyButton">Show me!</button>
+      </a>
+    </div>
+
+    <div class="image-gallery">
+      <img
+        src="https://www.themediterraneandish.com/wp-content/uploads/2020/05/shakshuka-recipe-1.jpg"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1542895364-1f38d277f031?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2hha3NodWthfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1584278859380-c94d92e083dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c2hha3NodWthfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      />
+    </div>
+    <footer>
+      <h6>Coded by Aleksandra Haber</h6>
+    </footer>
+    <script>
+      function darkMode() {
+        let body = document.querySelector("body");
+        body.classList.toggle("darkbody");
+        let container = document.querySelector(".container");
+        container.classList.toggle("darkcontainer");
+        let ButtonN = document.querySelector(".themeButton");
+        ButtonN.classList.toggle("darkThemeButton");
+      }
+
+      let modeButton = document.querySelector(".themeButton");
+      modeButton.addEventListener("click", darkMode);
+    </script>
+  </body>
+</html>
